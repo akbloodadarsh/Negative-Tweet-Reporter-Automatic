@@ -111,8 +111,8 @@ def execute():
 
 if __name__ == '__main__':
     mainwindow = Tk()
-    mainwindow.title("Twitter Sentimental Analysis Engine")
-    Label(mainwindow, text="TWITTER SENTIMENTAL ANALYSIS ENGINE", bg="black", fg="white").pack(side=TOP, fill=X, padx=2, pady=2)
+    mainwindow.title("Automatic Negative Tweet Reporter")
+    Label(mainwindow, text="AUTOMATIC NEGATIVE TWEET REPORTER", bg="black", fg="white").pack(side=TOP, fill=X, padx=2, pady=2)
     photo = PhotoImage(file="Twitterlogo.png")
     Label(mainwindow, image=photo, bg="black", fg="white").pack(side=TOP, fill=X)
     Label(mainwindow, text="HASHTAG", bg="black", fg="white").pack(side=TOP, fill=X, padx=2, pady=2)
