@@ -1,4 +1,4 @@
-# Negative-Tweet-Reporter
+# Negative-Tweet-Reporter(GUI)
 
 #### Follow The Steps
 ### 1. Insert Your Twitter Credentials in `TwitterCredentials.py`
