@@ -43,6 +43,4 @@ In this file we store our access token,access token secret, consumer key and con
 <a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
 In this file we store our access token,access token secret, consumer key and consumer secret.
 
-<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/MultinomialNaiveBayes.py">MultinomialNaiveBayes.py use </a>: 
-This file contains the function in which we get training data testing data with features we for which we have to predict our sentiment.
-We use naive Bayes to predict our sentiment and then return negative or positive emotions and in main if we got negative then we will report it using report_spam function present in the API by passing the username in it.
+<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/MultinomialNaiveBayes.py">MultinomialNaiveBayes.py</a>: This file contains the function in which we get training data testing data with features we for which we have to predict our sentiment. We use naive Bayes to predict our sentiment and then return negative or positive emotions and in main if we got negative then we will report it using report_spam function present in the API by passing the username in it.
