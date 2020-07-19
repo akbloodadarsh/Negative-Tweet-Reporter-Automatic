@@ -30,5 +30,15 @@
 <a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
 In this file we store our access token,access token secret, consumer key and consumer secret.
 
+<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/test.py.py">test.py</a>: 
+- The TwitterAuthenticator class inherits the OAuthHandler class and passes in the credentials to allow access to Twitter’s API features.
+- The TwitterClient class contains all the methods to interact with Twitter API and parsing tweets. Use __init__ function to handle the authentication of API client.
+- Create a object of class TwitterClient() and use the objetc to get twitter client api using get_twitter_client_api() function.
+- create a window using tkinter and let the user input the hashtag.
+- Use api to search for the tweets of inputted hastag and store the tweets.
+- Extract the labels and sentences and store the outcomes in y and after preprocessing the tweets store them in x.
+- Then used count Vectorizer to lowercases text,performed tokenization (converts raw text to smaller units of text),used word level tokenization (meaning each word is treated as a separate token),ignored single characters during tokenization.
+- Now one iterate the tweets and one by one preprocess and transform the tweets and do predictions.
 
-
+<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
+In this file we store our access token,access token secret, consumer key and consumer secret.
